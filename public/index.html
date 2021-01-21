@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>no2g AI</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="text-5xl text-center my-5">
+      no2g AI
+    </h1>
+    <div
+      id="app"
+      class="mx-auto text-white bg-gray-800"
+      style="width: 800px; height: 800px;"
+    >
+      <div class="flex flex-row" style="height: 200px;">
+        <div
+          id="col-indicator"
+          class="ml-auto h-full flex flex-row border-l-2 bg-gray-700"
+          style="width: 600px;"
+        ></div>
+      </div>
+      <div style="height: 600px;" class="flex flex-row">
+        <div
+          id="row-indicator"
+          style="width: 200px;"
+          class="h-full border-t-2  bg-gray-700"
+        ></div>
+        <div id="content" class="border-t-2 border-l-2 border-gray-400 bg-gray-100" style="height: 600px; width: 600px;"></div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
